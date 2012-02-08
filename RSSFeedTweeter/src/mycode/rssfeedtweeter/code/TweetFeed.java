@@ -21,12 +21,12 @@ public class TweetFeed
   {
     OAuthService service = new ServiceBuilder()
                                 .provider(TwitterApi.class)
-                                .apiKey("vUBdIal10yUwaVEr6t6Bg")
-                                .apiSecret("EggoFxehB1mUE2yaTkRiIIexu7sLtVTv0jG14pum7Y")
+                                .apiKey("")
+                                .apiSecret("")
                                 .build();
     
     
-    Token accessToken = new Token("53021580-rIra9b6hVB4i4P3xEra80Gjd1QEWHIMT1BkRUYrlg", "hhjat7ypNe3AzurcRMbSLq7DYD8d07JiDFzK7UCYTg");
+    Token accessToken = new Token("", "");
     
     OAuthRequest request = new OAuthRequest(Verb.POST, PROTECTED_RESOURCE_URL);    
     System.out.println("Request: "+request);
